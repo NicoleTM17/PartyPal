@@ -1,0 +1,10 @@
+
+@media (max-width: 540px){
+  .container{
+    max-width: 100%;
+  }
+
+  .birthday-btn{
+    margin-top: 0.75em;
+  }
+}

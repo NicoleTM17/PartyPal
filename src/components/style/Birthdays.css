@@ -1,0 +1,67 @@
+.fa-cake-candles{
+  margin-right: 5px;
+  /* color: #9BE8D8; */
+}
+
+h1{
+  margin-left: 1em;
+}
+
+.birthday-card{
+  display: flex;
+}
+
+.full-name{
+  font-size: 1.5em;
+}
+
+.birth-date{
+  font-size: 1.1em;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.birthday-btn{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  background-color: rgba(155, 232, 216, 0.5);
+  border: 1px solid rgba(155, 232, 216, 0.5);
+  color: black;
+  font-weight: 600;
+  border-radius: 3px;
+  text-align: center;
+  padding: 8px 8px;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  margin-top: 2em;
+}
+
+.birthday-btn:hover{
+  border: 1px solid #9BE8D8;
+  background-color: white;
+  color: black;
+}
+
+
+
+
+.cake-one{
+  color: #d3d6da;
+}
+
+.cake-two{
+  color: #A5A7FD;
+}
+
+.cake-three{
+  color: #212B32;
+}
+
+.cake-four{
+  color: #F9CC65;
+}
+
+.cake-five{
+  color: #EE8975;
+}

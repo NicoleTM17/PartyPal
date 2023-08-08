@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCakeCandles } from '@fortawesome/free-solid-svg-icons';
+
+import Birthdays from './components/Birthdays.js';
+
+import WebFont from 'webfontloader';
+
+WebFont.load({
+  google: {
+    families: [
+      'Noto+Serif+Vithkuqi:wght@50'
+    ],
+  },
+});
+
+
+library.add(faCakeCandles);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Birthdays/>
     </div>
   );
 }
